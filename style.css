@@ -33,7 +33,8 @@ body{
 }
 .teal2{
     width:100%;
-    padding: 0px;
+    position: absolute;
+    top: 0%;
 }
 .pochaco{
     position: absolute;
@@ -150,8 +151,8 @@ main{
 
 .pocha{
     position: absolute;
-    bottom: 350px;
-    left: 200px;
+    bottom: 47%;
+    left: 13%;
     transform: rotate(-20deg);
     
 }
@@ -195,7 +196,7 @@ main{
 .celestitas{
     z-index: 2;
     position: absolute;
-    bottom: -250px;
+    bottom: -45%;
 }
 
 .nube1{
