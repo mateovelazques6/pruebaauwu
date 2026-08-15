@@ -17,11 +17,12 @@ body{
     /*background-color: black;*/
     background-image: url("imagenes/relleno/download.jpg");
     height: 100vh;
-    width: 1200px; 
-    min-width: 1200px; 
+    width: 1366px; 
+    min-width: 1366px; 
     margin-left: auto;
     margin-right: auto;
 }
+
 
 
 .headerowo{
@@ -32,7 +33,7 @@ body{
     align-items: center;
     gap: 0px;
     height: 950px;
-    width: 1333px;
+    width: auto;
     
 }
 .teal2{
@@ -155,8 +156,8 @@ main{
 
 .pocha{
     position: absolute;
-    bottom: 47%;
-    left: 13%;
+    bottom: 90%;
+    left: 1%;
     transform: rotate(-20deg);
     
 }
