@@ -202,6 +202,8 @@ main{
     z-index: 2;
     position: absolute;
     bottom: -45%;
+    left: 5%;
+    display: flex;
 }
 
 .nube1{
