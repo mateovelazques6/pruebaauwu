@@ -34,6 +34,7 @@ body{
     gap: 0px;
     height: 950px;
     width: auto;
+    overflow: hidden;
     
 }
 .teal2{
@@ -166,8 +167,8 @@ main{
     width: 300px;
     height: auto;
     position: absolute;
-    bottom: 300px;
-    right: 200px;
+    top: 250px;
+    left: 900px;
 }
 .tintin2{
     width: 300px;
@@ -184,6 +185,7 @@ main{
 .sonic{
     animation:correr 3s ease-in infinite ;
     position: absolute;
+    overflow: hidden;
 }
 
 @keyframes correr{
@@ -193,17 +195,14 @@ main{
 
 .cinamon{
     position: absolute;
-    top: 500px;
+    top: 450px;
     right: auto;
 }
 
 
 .celestitas{
     z-index: 2;
-    position: absolute;
-    bottom: -45%;
-    left: 5%;
-    display: flex;
+    
 }
 
 .nube1{
@@ -214,6 +213,13 @@ main{
     bottom: -300px;
     left: 20px;
 }
+
+.angel{
+    display: block; 
+    margin-left: auto;  
+    margin-right: auto; 
+}
+
 @keyframes flotar {
     
 }
